@@ -34,4 +34,11 @@ let rec encode = (my_input) =>
   | _ => ""
   };
 
-Js.log(Bytes.of_string(encode(text)));
+let rec json_to_input = (json_input) =>
+  switch (Js.Json.classify(json_input)) {
+  | JSONString(s) => String(s)
+  | JSONArray(a) => List(List.map(json_to_input, Array.to_list(a)))
+  | _ => Nothing
+  };
+
+Js.log(Buffer.add_bytes(Buffer.create(0), Bytes.of_string(encode(text))));
