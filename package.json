@@ -10,6 +10,7 @@
     "BuckleScript",
     "reason"
   ],
+  "main": "lib/js/index.js",
   "author": "",
   "license": "MIT",
   "devDependencies": {
