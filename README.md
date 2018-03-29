@@ -1,4 +1,7 @@
 # Recursive Length Prefix Encoding
+[![Travis](https://img.shields.io/travis/figitaki/reason-rlp.svg?style=flat-square)](https://travis-ci.org/figitaki/reason-rlp)
+[![npm version](https://img.shields.io/npm/v/reason-rlp.svg?style=flat-square)](https://www.npmjs.com/package/reason-rlp)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 [Recursive Length](https://github.com/ethereum/wiki/wiki/RLP) prefix encoding implementation in Reason.
 

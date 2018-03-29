@@ -1,6 +1,12 @@
 {
   "name": "reason-rlp",
   "version": "0.1.0-alpha.1",
+  "description": "Recursive Length Prefix Encoding for Reason",
+  "keywords": [
+    "rlp",
+    "ethereum",
+    "reasonml"
+  ],
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
